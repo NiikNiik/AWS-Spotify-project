@@ -49,18 +49,12 @@ The editable architecture diagram is available here:
 ## AWS Services
 
 
-
-\- \*\*AWS Lambda\*\* - Retrieves and processes Spotify data.
-
-\- \*\*Amazon EventBridge\*\* - Schedules pipeline execution.
-
-\- \*\*Amazon S3\*\* - Stores Spotify datasets.
-
-\- \*\*Amazon Athena\*\* - Queries Spotify data stored in S3.
-
-\- \*\*AWS Secrets Manager\*\* - Stores credentials used to access the Spotify API.
-
-\- \*\*AWS IAM\*\* - Controls permissions between AWS resources.
+- **AWS Lambda** - Retrieves and processes Spotify data.
+- **Amazon EventBridge** - Schedules pipeline execution.
+- **Amazon S3** - Stores Spotify datasets.
+- **Amazon Athena** - Queries Spotify data stored in S3.
+- **AWS Secrets Manager** - Stores credentials used to access the Spotify API.
+- **AWS IAM** - Controls permissions between AWS resources.
 
 
 
