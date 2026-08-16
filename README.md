@@ -1,4 +1,4 @@
-\# AWS Spotify Data Pipeline
+# AWS Spotify Data Pipeline
 
 
 
@@ -10,7 +10,7 @@ This project is being used to develop hands-on experience with AWS infrastructur
 
 
 
-\## Architecture
+## Architecture
 
 
 
@@ -18,23 +18,23 @@ The pipeline uses AWS services to periodically retrieve Spotify data, process it
 
 
 
-\### Current Data Flow
+### Current Data Flow
 
 
 
-1\. Amazon EventBridge triggers the Spotify processing Lambda on a schedule.
+1. Amazon EventBridge triggers the Spotify processing Lambda on a schedule.
 
-2\. AWS Lambda communicates with the Spotify Web API to retrieve Spotify data.
+2. AWS Lambda communicates with the Spotify Web API to retrieve Spotify data.
 
-3\. Spotify API credentials are retrieved securely using AWS Secrets Manager.
+3. Spotify API credentials are retrieved securely using AWS Secrets Manager.
 
-4\. Lambda processes the Spotify data and writes the resulting CSV data to Amazon S3.
+4. Lambda processes the Spotify data and writes the resulting CSV data to Amazon S3.
 
-5\. Amazon Athena queries the data stored in S3.
+5. Amazon Athena queries the data stored in S3.
 
 
 
-\### Architecture Diagram
+### Architecture Diagram
 
 
 
@@ -46,7 +46,7 @@ The editable architecture diagram is available here:
 
 
 
-\## AWS Services
+## AWS Services
 
 
 
@@ -64,7 +64,7 @@ The editable architecture diagram is available here:
 
 
 
-\## Infrastructure as Code
+## Infrastructure as Code
 
 
 
@@ -80,7 +80,7 @@ Terraform configuration is located in:
 
 
 
-\## Repository Structure
+## Repository Structure
 
 
 
